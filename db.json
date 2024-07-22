@@ -1,0 +1,100 @@
+{
+    "starTech": [
+        {
+            "id": 1,
+            "name": "Nike 1",
+            "price": 300,
+            "img": "/img/nike_1.png",
+            "featured": true,
+            "topSelling": false
+        },
+        {
+            "id": 2,
+            "name": "Nike 2",
+            "price": 130,
+            "img": "/img/nike_2.png",
+            "featured": false,
+            "topSelling": false
+        },
+        {
+            "id": 3,
+            "name": "Nike 3",
+            "price": 190,
+            "img": "/img/nike_3.png",
+            "featured": false,
+            "topSelling": true
+        },
+        {
+            "id": 4,
+            "name": "Nike 4",
+            "price": 240,
+            "img": "/img/nike_4.png",
+            "featured": true,
+            "topSelling": false
+        },
+        {
+            "id": 5,
+            "name": "Adidas 1",
+            "price": 150,
+            "img": "/img/adidas_1.jpg",
+            "featured": false,
+            "topSelling": true
+        },
+        {
+            "id": 6,
+            "name": "Adidas 2",
+            "price": 280,
+            "img": "/img/adidas_2.jpg",
+            "featured": true,
+            "topSelling": false
+        },
+        {
+            "id": 7,
+            "name": "Adidas 3",
+            "price": 270,
+            "img": "/img/adidas_3.jpg",
+            "featured": false,
+            "topSelling": true
+        },
+        {
+            "id": 8,
+            "name": "Adidas 4",
+            "price": 190,
+            "img": "/img/adidas_4.jpg",
+            "featured": false,
+            "topSelling": false
+        },
+        {
+            "id": 9,
+            "name": "Reebok 1",
+            "price": 320,
+            "img": "/img/reebok_1.jpeg",
+            "featured": true,
+            "topSelling": false
+        },
+        {
+            "id": 10,
+            "name": "Reebok 2",
+            "price": 230,
+            "img": "/img/reebok_2.jpg",
+            "featured": false,
+            "topSelling": false
+        },
+        {
+            "id": 11,
+            "name": "Reebok 3",
+            "price": 250,
+            "img": "/img/reebok_3.jpeg",
+            "featured": false,
+            "topSelling": false
+        },
+        {
+            "id": 12,
+            "name": "Reebok 4",
+            "price": 170,
+            "img": "/img/reebok_4.jpg",
+            "featured": false,
+            "topSelling": true
+        }
+    ]
+}
