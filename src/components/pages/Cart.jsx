@@ -28,7 +28,7 @@ function Cart() {
               </td>
               <td>{item.product.name}</td>
               <td className="flex justify-center">
-                <img src={"http://localhost:8000/" + item.product.img} alt="" className="h-[50px]" />
+                <img src={"https://startech-ecom-api.onrender.com/" + item.product.img} alt="" className="h-[50px]" />
               </td>
               <td>₦{item.product.price}</td>
               <td>

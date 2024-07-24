@@ -11,7 +11,7 @@ function Detail() {
   return (
     <div className="flex px-[5%] py-[3%] justify-between">
       <div>
-        <img src={"http://localhost:8000/" + shoeitem?.img} alt="" className="h-[400px] w-[500px] object-cover" />
+        <img src={"https://startech-ecom-api.onrender.com/" + shoeitem?.img} alt="" className="h-[400px] w-[500px] object-cover" />
       </div>
       <div className="w-[50%]">
         <h2 className="text-2xl font-bold mb-[10px] border-b-2">{shoeitem?.name}</h2>

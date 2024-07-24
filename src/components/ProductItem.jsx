@@ -14,7 +14,7 @@ function ProductItem({ item }) {
     <div className="mb-5 border-2 border-black w-max rounded-lg shadow-lg shadow-blue-500">
       <Link to={`/detail/${item._id}`}>
         <img
-          src={"http://localhost:8000/" + item.img}
+          src={"https://startech-ecom-api.onrender.com/" + item.img}
           alt=""
           className="h-[200px] w-[250px] rounded-lg object-cover"
         />
