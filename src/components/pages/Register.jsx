@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Navigate } from "react-router-dom";
 import EcomContext from "../../context/EcomContext";
 
 function Register() {
@@ -9,7 +9,11 @@ function Register() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const { showAndHide } = useContext(EcomContext);
+  const { showAndHide, isAuthenticated } = useContext(EcomContext);
+
+  if (isAuthenticated) {
+    return <Navigate to="/" />
+  }
 
   const redirect = useNavigate();
 

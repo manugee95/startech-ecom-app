@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Navigate } from "react-router-dom";
 import EcomContext from "../../context/EcomContext";
 import AuthContext from "../../context/AuthContext";
 import useLocalStorage from "../../hooks/useLocalStorage";
@@ -7,9 +7,13 @@ import useLocalStorage from "../../hooks/useLocalStorage";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const { showAndHide } = useContext(EcomContext);
+  const { showAndHide, isAuthenticated } = useContext(EcomContext);
   const [state, dispatch] = useContext(AuthContext);
   const { setItem } = useLocalStorage("auth-token");
+
+  if (isAuthenticated) {
+    return <Navigate to="/" />
+  }
 
   const redirect = useNavigate();
 
